@@ -1,0 +1,4 @@
+.header> .header-nav__menu> .menu__item{
+    display: grid;
+    flex-direction: column;
+}
