@@ -1,8 +1,8 @@
 .header {
     background-color: var(--background-color);
-     font-size: 20px;
+     font-size: 20px;     }
     
-     }
+     
      .header-nav__menu-item {
         display: block;
      }
@@ -12,14 +12,16 @@
         padding-bottom: 20px;
             }
 .container> .baner {
-    padding-left: 200px;
+    height: auto;
+    width: 100%;
+   
 }
   
 .header .header-nav__menu:hover{
     text-decoration: underline;
 }
 @media (win-width:500px){
-    .header-nav> .container {
+    .header-nav {
      display: flex;
     }
 }
