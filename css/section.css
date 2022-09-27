@@ -3,29 +3,26 @@
       text-align: center;
      padding-bottom: 30px;
      padding-left: 30px;
-     gap: 45px;
-             }
+     gap: 45px;            
+     padding: 10px;
     
+  }
+             
    
    .container {
-       max-width: 980;
+       max-width: 980px;
        margin: auto;
    }
-  .discription {
-    border: 1px solid blue;
-    padding: 5px;
-   
-  }
+  
  
   .abonement__cards-item {
     display: grid;
-    grid-template: column; 1fr 1fr 1fr;
-   
-    margin: 2% auto;
-    width: 80%;
+    grid-template-columns: auto;
+    margin: 50px auto;
+    width: 900px;
     max-width: 800px;
     text-align: center;
-  border: 1px solid blue;
+    border: 1px solid blue;
     padding: 10px;
     background-color: rgb(235, 226, 55);
 }
