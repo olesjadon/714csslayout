@@ -1,17 +1,15 @@
 .container_section {
   display: flex;
-      text-align: center;
-     padding-bottom: 30px;
-     padding-left: 30px;
-     gap: 45px;            
-     padding: 10px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  gap: 45px;            
       }
       
+      .container {
+        max-width: 980px;
+        margin: auto;}
+  
    
-   .container {
-       max-width: 980px;
-       margin: auto;
-   }
    .products{
     display: block;
     margin: 50px auto;
@@ -34,7 +32,7 @@
     color: rgb(17, 26, 2);
 }
 
-media@ (win-width: 500px){
+media@(win-width: 500px)
   .products {
     grid-template-columns: 1fr 1fr:
-  }}
+  }
