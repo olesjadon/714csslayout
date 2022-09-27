@@ -2,7 +2,8 @@
   display: flex;
   padding-bottom: 30px;
   padding-left: 30px;
-  gap: 45px;            
+  gap: 45px;    
+  text-align: center;        
       }
       
       .container {
@@ -31,8 +32,11 @@
     font-size: 22px;
     color: rgb(17, 26, 2);
 }
-
-media@(win-width: 500px)
-  .products {
-    grid-template-columns: 1fr 1fr:
-  }
+@media (win-width:500px){
+   .products {
+    grid-template-columns: 1fr 1fr;
+  }}
+  @media (win-width:500px){
+    .container_section {
+     grid-template-columns: 1fr 1fr;
+   }}
