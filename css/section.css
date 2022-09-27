@@ -1,16 +1,12 @@
 .container_section {
-    display: flex;
-       text-align: center;
-       padding-bottom: 30px;
-       padding-left: 30px;
-       gap: 45px;
-      
-    }
-    @media (min-width: 500px){
-       .container_section {
-        display: flex;
-       justify-content: space-around;
-   }}
+  display: flex;
+      text-align: center;
+     padding-bottom: 30px;
+     padding-left: 30px;
+     gap: 45px;
+             }
+    
+   
    .container {
        max-width: 980;
        margin: auto;
@@ -18,14 +14,16 @@
   .discription {
     border: 1px solid blue;
     padding: 5px;
+   
   }
  
   .abonement__cards-item {
     display: grid;
-    flex-direction: column;
-    margin: 50px auto;
+    grid-template: column; 1fr 1fr 1fr;
+   
+    margin: 2% auto;
     width: 80%;
-    max-width: 250px;
+    max-width: 800px;
     text-align: center;
   border: 1px solid blue;
     padding: 10px;
