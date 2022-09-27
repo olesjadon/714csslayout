@@ -5,25 +5,25 @@
      padding-left: 30px;
      gap: 45px;            
      padding: 10px;
-    
-  }
-             
+      }
+      
    
    .container {
        max-width: 980px;
        margin: auto;
    }
-  
- 
-  .abonement__cards-item {
-    display: grid;
-    grid-template-columns: auto;
+   .products{
+    display: block;
     margin: 50px auto;
-    width: 900px;
+    width: 500px;
     max-width: 800px;
     text-align: center;
-    border: 1px solid blue;
-    padding: 10px;
+      }
+ 
+  .abonement__cards-item {
+    margin-bottom: 50px;
+    border: 3px solid blue;
+    padding: 20px;
     background-color: rgb(235, 226, 55);
 }
 .abonement__cards-item>h3,
@@ -34,4 +34,7 @@
     color: rgb(17, 26, 2);
 }
 
-  
+media@ (win-width: 500px){
+  .products {
+    grid-template-columns: 1fr 1fr:
+  }}
