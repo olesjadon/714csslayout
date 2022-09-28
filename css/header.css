@@ -14,12 +14,12 @@
 .container> .baner {
     height: auto;
     width: 100%;
-   }
+       }
   
 .header .header-nav__menu:hover{
     text-decoration: underline;
 }
-@media (win-width:500px){
+@media (win-width:600px){
     .header-nav {
         display: grid;
         grid-template-columns: 1fr 1fr;
